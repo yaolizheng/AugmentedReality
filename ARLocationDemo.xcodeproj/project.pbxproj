@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B810ABD1671258D000D1B3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B810ABC1671258D000D1B3D /* UIKit.framework */; };
+		7B810ABF1671258D000D1B3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B810ABE1671258D000D1B3D /* Foundation.framework */; };
+		7B810AC11671258D000D1B3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B810AC01671258D000D1B3D /* CoreGraphics.framework */; };
+		7B810AC71671258D000D1B3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B810AC51671258D000D1B3D /* InfoPlist.strings */; };
+		7B810AC91671258D000D1B3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810AC81671258D000D1B3D /* main.m */; };
+		7B810ACD1671258D000D1B3D /* demo3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810ACC1671258D000D1B3D /* demo3AppDelegate.m */; };
+		7B810ACF1671258D000D1B3D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B810ACE1671258D000D1B3D /* Default.png */; };
+		7B810AD11671258E000D1B3D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B810AD01671258D000D1B3D /* Default@2x.png */; };
+		7B810AD31671258E000D1B3D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B810AD21671258E000D1B3D /* Default-568h@2x.png */; };
+		7B810AD61671258E000D1B3D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B810AD41671258E000D1B3D /* MainStoryboard.storyboard */; };
+		7B810AD91671258E000D1B3D /* demo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810AD81671258E000D1B3D /* demo3ViewController.m */; };
+		7B810B2216712607000D1B3D /* ARView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810AE016712607000D1B3D /* ARView.m */; };
+		7B810B2316712607000D1B3D /* AtmIcon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B810AE116712607000D1B3D /* AtmIcon.gif */; };
+		7B810B2416712607000D1B3D /* BankButton.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B810AE216712607000D1B3D /* BankButton.gif */; };
+		7B810B2516712607000D1B3D /* BoaButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B810AE316712607000D1B3D /* BoaButton.png */; };
+		7B810B2616712607000D1B3D /* BoaIcon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B810AE416712607000D1B3D /* BoaIcon.gif */; };
+		7B810B2716712607000D1B3D /* button(2).png in Resources */ = {isa = PBXBuildFile; fileRef = 7B810AE516712607000D1B3D /* button(2).png */; };
+		7B810B2816712607000D1B3D /* CitiButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B810AE616712607000D1B3D /* CitiButton.png */; };
+		7B810B2916712607000D1B3D /* CitiIcon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B810AE716712607000D1B3D /* CitiIcon.gif */; };
+		7B810B2A16712607000D1B3D /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810AEA16712607000D1B3D /* CXMLDocument_CreationExtensions.m */; };
+		7B810B2B16712607000D1B3D /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810AEC16712607000D1B3D /* CXMLNode_CreationExtensions.m */; };
+		7B810B2C16712607000D1B3D /* settingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810AEE16712607000D1B3D /* settingViewController.m */; };
+		7B810B2D16712607000D1B3D /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810AF016712607000D1B3D /* CXHTMLDocument.m */; };
+		7B810B2E16712607000D1B3D /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810AF216712607000D1B3D /* CXMLDocument_PrivateExtensions.m */; };
+		7B810B2F16712607000D1B3D /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810AF416712607000D1B3D /* CXMLDocument.m */; };
+		7B810B3016712607000D1B3D /* CXMLElement_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810AF616712607000D1B3D /* CXMLElement_CreationExtensions.m */; };
+		7B810B3116712607000D1B3D /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810AF816712607000D1B3D /* CXMLElement_ElementTreeExtensions.m */; };
+		7B810B3216712607000D1B3D /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810AFA16712607000D1B3D /* CXMLElement.m */; };
+		7B810B3316712607000D1B3D /* CXMLNamespaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810AFC16712607000D1B3D /* CXMLNamespaceNode.m */; };
+		7B810B3416712607000D1B3D /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810AFE16712607000D1B3D /* CXMLNode_PrivateExtensions.m */; };
+		7B810B3516712607000D1B3D /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810B0016712607000D1B3D /* CXMLNode_XPathExtensions.m */; };
+		7B810B3616712607000D1B3D /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810B0216712607000D1B3D /* CXMLNode.m */; };
+		7B810B3716712607000D1B3D /* demo3ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810B0416712607000D1B3D /* demo3ARViewController.m */; };
+		7B810B3816712607000D1B3D /* demo3DetailedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810B0616712607000D1B3D /* demo3DetailedController.m */; };
+		7B810B3916712607000D1B3D /* demo3MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810B0816712607000D1B3D /* demo3MapViewController.m */; };
+		7B810B3A16712607000D1B3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B810B0A16712607000D1B3D /* InfoPlist.strings */; };
+		7B810B3B16712607000D1B3D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B810B0C16712607000D1B3D /* Localizable.strings */; };
+		7B810B3C16712607000D1B3D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B810B0E16712607000D1B3D /* MainStoryboard.storyboard */; };
+		7B810B3D16712607000D1B3D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810B1116712607000D1B3D /* MBProgressHUD.m */; };
+		7B810B3E16712607000D1B3D /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810B1316712607000D1B3D /* Place.m */; };
+		7B810B3F16712607000D1B3D /* PlaceOfInterest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810B1516712607000D1B3D /* PlaceOfInterest.m */; };
+		7B810B4016712607000D1B3D /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810B1816712607000D1B3D /* CTidy.m */; };
+		7B810B4116712607000D1B3D /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B810B1B16712607000D1B3D /* WebService.m */; };
+		7B810B4216712607000D1B3D /* xmlfile.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7B810B1C16712607000D1B3D /* xmlfile.xml */; };
+		7B810B4316712607000D1B3D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B810B1E16712607000D1B3D /* Localizable.strings */; };
+		7B810B4416712607000D1B3D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B810B2016712607000D1B3D /* MainStoryboard.storyboard */; };
+		7B810B4A1671264F000D1B3D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B810B491671264F000D1B3D /* MapKit.framework */; };
+		7B810B4C16712654000D1B3D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B810B4B16712654000D1B3D /* AVFoundation.framework */; };
+		7B810B4E1671265A000D1B3D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B810B4D1671265A000D1B3D /* CoreMotion.framework */; };
+		7B810B501671265E000D1B3D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B810B4F1671265E000D1B3D /* CoreLocation.framework */; };
+		7B810B5216712665000D1B3D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B810B5116712665000D1B3D /* CoreFoundation.framework */; };
+		7B810B541671266B000D1B3D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B810B531671266B000D1B3D /* QuartzCore.framework */; };
+		7B810B5616712671000D1B3D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B810B5516712671000D1B3D /* OpenGLES.framework */; };
+		7B810B5816712677000D1B3D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B810B5716712677000D1B3D /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B810AB81671258D000D1B3D /* ARLocationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARLocationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B810ABC1671258D000D1B3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7B810ABE1671258D000D1B3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7B810AC01671258D000D1B3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7B810AC41671258D000D1B3D /* ARLocationDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARLocationDemo-Info.plist"; sourceTree = "<group>"; };
+		7B810AC61671258D000D1B3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B810AC81671258D000D1B3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B810ACA1671258D000D1B3D /* ARLocationDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARLocationDemo-Prefix.pch"; sourceTree = "<group>"; };
+		7B810ACB1671258D000D1B3D /* demo3AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demo3AppDelegate.h; sourceTree = "<group>"; };
+		7B810ACC1671258D000D1B3D /* demo3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demo3AppDelegate.m; sourceTree = "<group>"; };
+		7B810ACE1671258D000D1B3D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7B810AD01671258D000D1B3D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7B810AD21671258E000D1B3D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7B810AD51671258E000D1B3D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7B810AD71671258E000D1B3D /* demo3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demo3ViewController.h; sourceTree = "<group>"; };
+		7B810AD81671258E000D1B3D /* demo3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demo3ViewController.m; sourceTree = "<group>"; };
+		7B810ADF16712607000D1B3D /* ARView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARView.h; sourceTree = "<group>"; };
+		7B810AE016712607000D1B3D /* ARView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARView.m; sourceTree = "<group>"; };
+		7B810AE116712607000D1B3D /* AtmIcon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = AtmIcon.gif; path = ARLocationDemo/AtmIcon.gif; sourceTree = "<group>"; };
+		7B810AE216712607000D1B3D /* BankButton.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = BankButton.gif; path = ARLocationDemo/BankButton.gif; sourceTree = "<group>"; };
+		7B810AE316712607000D1B3D /* BoaButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BoaButton.png; path = ARLocationDemo/BoaButton.png; sourceTree = "<group>"; };
+		7B810AE416712607000D1B3D /* BoaIcon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = BoaIcon.gif; path = ARLocationDemo/BoaIcon.gif; sourceTree = "<group>"; };
+		7B810AE516712607000D1B3D /* button(2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button(2).png"; sourceTree = "<group>"; };
+		7B810AE616712607000D1B3D /* CitiButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CitiButton.png; path = ARLocationDemo/CitiButton.png; sourceTree = "<group>"; };
+		7B810AE716712607000D1B3D /* CitiIcon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = CitiIcon.gif; path = ARLocationDemo/CitiIcon.gif; sourceTree = "<group>"; };
+		7B810AE916712607000D1B3D /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
+		7B810AEA16712607000D1B3D /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
+		7B810AEB16712607000D1B3D /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
+		7B810AEC16712607000D1B3D /* CXMLNode_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_CreationExtensions.m; sourceTree = "<group>"; };
+		7B810AED16712607000D1B3D /* settingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = settingViewController.h; path = Creation/settingViewController.h; sourceTree = "<group>"; };
+		7B810AEE16712607000D1B3D /* settingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = settingViewController.m; path = Creation/settingViewController.m; sourceTree = "<group>"; };
+		7B810AEF16712607000D1B3D /* CXHTMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXHTMLDocument.h; path = ARLocationDemo/CXHTMLDocument.h; sourceTree = "<group>"; };
+		7B810AF016712607000D1B3D /* CXHTMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXHTMLDocument.m; path = ARLocationDemo/CXHTMLDocument.m; sourceTree = "<group>"; };
+		7B810AF116712607000D1B3D /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLDocument_PrivateExtensions.h; path = ARLocationDemo/CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		7B810AF216712607000D1B3D /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLDocument_PrivateExtensions.m; path = ARLocationDemo/CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		7B810AF316712607000D1B3D /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLDocument.h; path = ARLocationDemo/CXMLDocument.h; sourceTree = "<group>"; };
+		7B810AF416712607000D1B3D /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLDocument.m; path = ARLocationDemo/CXMLDocument.m; sourceTree = "<group>"; };
+		7B810AF516712607000D1B3D /* CXMLElement_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLElement_CreationExtensions.h; path = ARLocationDemo/CXMLElement_CreationExtensions.h; sourceTree = "<group>"; };
+		7B810AF616712607000D1B3D /* CXMLElement_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLElement_CreationExtensions.m; path = ARLocationDemo/CXMLElement_CreationExtensions.m; sourceTree = "<group>"; };
+		7B810AF716712607000D1B3D /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLElement_ElementTreeExtensions.h; path = ARLocationDemo/CXMLElement_ElementTreeExtensions.h; sourceTree = "<group>"; };
+		7B810AF816712607000D1B3D /* CXMLElement_ElementTreeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLElement_ElementTreeExtensions.m; path = ARLocationDemo/CXMLElement_ElementTreeExtensions.m; sourceTree = "<group>"; };
+		7B810AF916712607000D1B3D /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLElement.h; path = ARLocationDemo/CXMLElement.h; sourceTree = "<group>"; };
+		7B810AFA16712607000D1B3D /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLElement.m; path = ARLocationDemo/CXMLElement.m; sourceTree = "<group>"; };
+		7B810AFB16712607000D1B3D /* CXMLNamespaceNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNamespaceNode.h; path = ARLocationDemo/CXMLNamespaceNode.h; sourceTree = "<group>"; };
+		7B810AFC16712607000D1B3D /* CXMLNamespaceNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNamespaceNode.m; path = ARLocationDemo/CXMLNamespaceNode.m; sourceTree = "<group>"; };
+		7B810AFD16712607000D1B3D /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNode_PrivateExtensions.h; path = ARLocationDemo/CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		7B810AFE16712607000D1B3D /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNode_PrivateExtensions.m; path = ARLocationDemo/CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		7B810AFF16712607000D1B3D /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNode_XPathExtensions.h; path = ARLocationDemo/CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		7B810B0016712607000D1B3D /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNode_XPathExtensions.m; path = ARLocationDemo/CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
+		7B810B0116712607000D1B3D /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNode.h; path = ARLocationDemo/CXMLNode.h; sourceTree = "<group>"; };
+		7B810B0216712607000D1B3D /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNode.m; path = ARLocationDemo/CXMLNode.m; sourceTree = "<group>"; };
+		7B810B0316712607000D1B3D /* demo3ARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demo3ARViewController.h; sourceTree = "<group>"; };
+		7B810B0416712607000D1B3D /* demo3ARViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demo3ARViewController.m; sourceTree = "<group>"; };
+		7B810B0516712607000D1B3D /* demo3DetailedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demo3DetailedController.h; sourceTree = "<group>"; };
+		7B810B0616712607000D1B3D /* demo3DetailedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demo3DetailedController.m; sourceTree = "<group>"; };
+		7B810B0716712607000D1B3D /* demo3MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demo3MapViewController.h; sourceTree = "<group>"; };
+		7B810B0816712607000D1B3D /* demo3MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demo3MapViewController.m; sourceTree = "<group>"; };
+		7B810B0B16712607000D1B3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		7B810B0D16712607000D1B3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		7B810B0F16712607000D1B3D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7B810B1016712607000D1B3D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		7B810B1116712607000D1B3D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		7B810B1216712607000D1B3D /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		7B810B1316712607000D1B3D /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+		7B810B1416712607000D1B3D /* PlaceOfInterest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceOfInterest.h; sourceTree = "<group>"; };
+		7B810B1516712607000D1B3D /* PlaceOfInterest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceOfInterest.m; sourceTree = "<group>"; };
+		7B810B1716712607000D1B3D /* CTidy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTidy.h; sourceTree = "<group>"; };
+		7B810B1816712607000D1B3D /* CTidy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTidy.m; sourceTree = "<group>"; };
+		7B810B1916712607000D1B3D /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchXML.h; path = ARLocationDemo/TouchXML.h; sourceTree = "<group>"; };
+		7B810B1A16712607000D1B3D /* WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebService.h; sourceTree = "<group>"; };
+		7B810B1B16712607000D1B3D /* WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebService.m; sourceTree = "<group>"; };
+		7B810B1C16712607000D1B3D /* xmlfile.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = xmlfile.xml; sourceTree = "<group>"; };
+		7B810B1F16712607000D1B3D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Localizable.strings; sourceTree = "<group>"; };
+		7B810B2116712607000D1B3D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7B810B491671264F000D1B3D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7B810B4B16712654000D1B3D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7B810B4D1671265A000D1B3D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		7B810B4F1671265E000D1B3D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7B810B5116712665000D1B3D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		7B810B531671266B000D1B3D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7B810B5516712671000D1B3D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		7B810B5716712677000D1B3D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B810AB51671258D000D1B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B810B5816712677000D1B3D /* AssetsLibrary.framework in Frameworks */,
+				7B810B5616712671000D1B3D /* OpenGLES.framework in Frameworks */,
+				7B810B541671266B000D1B3D /* QuartzCore.framework in Frameworks */,
+				7B810B5216712665000D1B3D /* CoreFoundation.framework in Frameworks */,
+				7B810B501671265E000D1B3D /* CoreLocation.framework in Frameworks */,
+				7B810B4E1671265A000D1B3D /* CoreMotion.framework in Frameworks */,
+				7B810B4C16712654000D1B3D /* AVFoundation.framework in Frameworks */,
+				7B810B4A1671264F000D1B3D /* MapKit.framework in Frameworks */,
+				7B810ABD1671258D000D1B3D /* UIKit.framework in Frameworks */,
+				7B810ABF1671258D000D1B3D /* Foundation.framework in Frameworks */,
+				7B810AC11671258D000D1B3D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B810AAD1671258D000D1B3D = {
+			isa = PBXGroup;
+			children = (
+				7B810AC21671258D000D1B3D /* ARLocationDemo */,
+				7B810ABB1671258D000D1B3D /* Frameworks */,
+				7B810AB91671258D000D1B3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B810AB91671258D000D1B3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B810AB81671258D000D1B3D /* ARLocationDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B810ABB1671258D000D1B3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B810B5716712677000D1B3D /* AssetsLibrary.framework */,
+				7B810B5516712671000D1B3D /* OpenGLES.framework */,
+				7B810B531671266B000D1B3D /* QuartzCore.framework */,
+				7B810B5116712665000D1B3D /* CoreFoundation.framework */,
+				7B810B4F1671265E000D1B3D /* CoreLocation.framework */,
+				7B810B4D1671265A000D1B3D /* CoreMotion.framework */,
+				7B810B4B16712654000D1B3D /* AVFoundation.framework */,
+				7B810B491671264F000D1B3D /* MapKit.framework */,
+				7B810ABC1671258D000D1B3D /* UIKit.framework */,
+				7B810ABE1671258D000D1B3D /* Foundation.framework */,
+				7B810AC01671258D000D1B3D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B810AC21671258D000D1B3D /* ARLocationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7B810B6316712ACA000D1B3D /* TouchXML */,
+				7B810AED16712607000D1B3D /* settingViewController.h */,
+				7B810AEE16712607000D1B3D /* settingViewController.m */,
+				7B810B6216712A53000D1B3D /* Icon */,
+				7B810ADF16712607000D1B3D /* ARView.h */,
+				7B810AE016712607000D1B3D /* ARView.m */,
+				7B810AE516712607000D1B3D /* button(2).png */,
+				7B810B0316712607000D1B3D /* demo3ARViewController.h */,
+				7B810B0416712607000D1B3D /* demo3ARViewController.m */,
+				7B810B0516712607000D1B3D /* demo3DetailedController.h */,
+				7B810B0616712607000D1B3D /* demo3DetailedController.m */,
+				7B810B0716712607000D1B3D /* demo3MapViewController.h */,
+				7B810B0816712607000D1B3D /* demo3MapViewController.m */,
+				7B810B0916712607000D1B3D /* en.lproj */,
+				7B810B1016712607000D1B3D /* MBProgressHUD.h */,
+				7B810B1116712607000D1B3D /* MBProgressHUD.m */,
+				7B810B1216712607000D1B3D /* Place.h */,
+				7B810B1316712607000D1B3D /* Place.m */,
+				7B810B1416712607000D1B3D /* PlaceOfInterest.h */,
+				7B810B1516712607000D1B3D /* PlaceOfInterest.m */,
+				7B810B1A16712607000D1B3D /* WebService.h */,
+				7B810B1B16712607000D1B3D /* WebService.m */,
+				7B810B1C16712607000D1B3D /* xmlfile.xml */,
+				7B810B1D16712607000D1B3D /* zh-Hans.lproj */,
+				7B810ACB1671258D000D1B3D /* demo3AppDelegate.h */,
+				7B810ACC1671258D000D1B3D /* demo3AppDelegate.m */,
+				7B810AD41671258E000D1B3D /* MainStoryboard.storyboard */,
+				7B810AD71671258E000D1B3D /* demo3ViewController.h */,
+				7B810AD81671258E000D1B3D /* demo3ViewController.m */,
+				7B810AC31671258D000D1B3D /* Supporting Files */,
+			);
+			path = ARLocationDemo;
+			sourceTree = "<group>";
+		};
+		7B810AC31671258D000D1B3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B810AC41671258D000D1B3D /* ARLocationDemo-Info.plist */,
+				7B810AC51671258D000D1B3D /* InfoPlist.strings */,
+				7B810AC81671258D000D1B3D /* main.m */,
+				7B810ACA1671258D000D1B3D /* ARLocationDemo-Prefix.pch */,
+				7B810ACE1671258D000D1B3D /* Default.png */,
+				7B810AD01671258D000D1B3D /* Default@2x.png */,
+				7B810AD21671258E000D1B3D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B810AE816712607000D1B3D /* Creation */ = {
+			isa = PBXGroup;
+			children = (
+				7B810AE916712607000D1B3D /* CXMLDocument_CreationExtensions.h */,
+				7B810AEA16712607000D1B3D /* CXMLDocument_CreationExtensions.m */,
+				7B810AEB16712607000D1B3D /* CXMLNode_CreationExtensions.h */,
+				7B810AEC16712607000D1B3D /* CXMLNode_CreationExtensions.m */,
+			);
+			name = Creation;
+			path = ARLocationDemo/Creation;
+			sourceTree = "<group>";
+		};
+		7B810B0916712607000D1B3D /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				7B810B0A16712607000D1B3D /* InfoPlist.strings */,
+				7B810B0C16712607000D1B3D /* Localizable.strings */,
+				7B810B0E16712607000D1B3D /* MainStoryboard.storyboard */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		7B810B1616712607000D1B3D /* Tidy */ = {
+			isa = PBXGroup;
+			children = (
+				7B810B1716712607000D1B3D /* CTidy.h */,
+				7B810B1816712607000D1B3D /* CTidy.m */,
+			);
+			name = Tidy;
+			path = ARLocationDemo/Tidy;
+			sourceTree = "<group>";
+		};
+		7B810B1D16712607000D1B3D /* zh-Hans.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				7B810B1E16712607000D1B3D /* Localizable.strings */,
+				7B810B2016712607000D1B3D /* MainStoryboard.storyboard */,
+			);
+			path = "zh-Hans.lproj";
+			sourceTree = "<group>";
+		};
+		7B810B6216712A53000D1B3D /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				7B810AE116712607000D1B3D /* AtmIcon.gif */,
+				7B810AE216712607000D1B3D /* BankButton.gif */,
+				7B810AE316712607000D1B3D /* BoaButton.png */,
+				7B810AE416712607000D1B3D /* BoaIcon.gif */,
+				7B810AE616712607000D1B3D /* CitiButton.png */,
+				7B810AE716712607000D1B3D /* CitiIcon.gif */,
+			);
+			name = Icon;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7B810B6316712ACA000D1B3D /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				7B810AE816712607000D1B3D /* Creation */,
+				7B810B1916712607000D1B3D /* TouchXML.h */,
+				7B810B1616712607000D1B3D /* Tidy */,
+				7B810AEF16712607000D1B3D /* CXHTMLDocument.h */,
+				7B810AF016712607000D1B3D /* CXHTMLDocument.m */,
+				7B810AF116712607000D1B3D /* CXMLDocument_PrivateExtensions.h */,
+				7B810AF216712607000D1B3D /* CXMLDocument_PrivateExtensions.m */,
+				7B810AF316712607000D1B3D /* CXMLDocument.h */,
+				7B810AF416712607000D1B3D /* CXMLDocument.m */,
+				7B810AF516712607000D1B3D /* CXMLElement_CreationExtensions.h */,
+				7B810AF616712607000D1B3D /* CXMLElement_CreationExtensions.m */,
+				7B810AF716712607000D1B3D /* CXMLElement_ElementTreeExtensions.h */,
+				7B810AF816712607000D1B3D /* CXMLElement_ElementTreeExtensions.m */,
+				7B810AF916712607000D1B3D /* CXMLElement.h */,
+				7B810AFA16712607000D1B3D /* CXMLElement.m */,
+				7B810AFB16712607000D1B3D /* CXMLNamespaceNode.h */,
+				7B810AFC16712607000D1B3D /* CXMLNamespaceNode.m */,
+				7B810AFD16712607000D1B3D /* CXMLNode_PrivateExtensions.h */,
+				7B810AFE16712607000D1B3D /* CXMLNode_PrivateExtensions.m */,
+				7B810AFF16712607000D1B3D /* CXMLNode_XPathExtensions.h */,
+				7B810B0016712607000D1B3D /* CXMLNode_XPathExtensions.m */,
+				7B810B0116712607000D1B3D /* CXMLNode.h */,
+				7B810B0216712607000D1B3D /* CXMLNode.m */,
+			);
+			name = TouchXML;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B810AB71671258D000D1B3D /* ARLocationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B810ADC1671258E000D1B3D /* Build configuration list for PBXNativeTarget "ARLocationDemo" */;
+			buildPhases = (
+				7B810AB41671258D000D1B3D /* Sources */,
+				7B810AB51671258D000D1B3D /* Frameworks */,
+				7B810AB61671258D000D1B3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARLocationDemo;
+			productName = ARLocationDemo;
+			productReference = 7B810AB81671258D000D1B3D /* ARLocationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B810AAF1671258D000D1B3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = demo3;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Tao Zong";
+			};
+			buildConfigurationList = 7B810AB21671258D000D1B3D /* Build configuration list for PBXProject "ARLocationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 7B810AAD1671258D000D1B3D;
+			productRefGroup = 7B810AB91671258D000D1B3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B810AB71671258D000D1B3D /* ARLocationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B810AB61671258D000D1B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B810AC71671258D000D1B3D /* InfoPlist.strings in Resources */,
+				7B810ACF1671258D000D1B3D /* Default.png in Resources */,
+				7B810AD11671258E000D1B3D /* Default@2x.png in Resources */,
+				7B810AD31671258E000D1B3D /* Default-568h@2x.png in Resources */,
+				7B810AD61671258E000D1B3D /* MainStoryboard.storyboard in Resources */,
+				7B810B2316712607000D1B3D /* AtmIcon.gif in Resources */,
+				7B810B2416712607000D1B3D /* BankButton.gif in Resources */,
+				7B810B2516712607000D1B3D /* BoaButton.png in Resources */,
+				7B810B2616712607000D1B3D /* BoaIcon.gif in Resources */,
+				7B810B2716712607000D1B3D /* button(2).png in Resources */,
+				7B810B2816712607000D1B3D /* CitiButton.png in Resources */,
+				7B810B2916712607000D1B3D /* CitiIcon.gif in Resources */,
+				7B810B3A16712607000D1B3D /* InfoPlist.strings in Resources */,
+				7B810B3B16712607000D1B3D /* Localizable.strings in Resources */,
+				7B810B3C16712607000D1B3D /* MainStoryboard.storyboard in Resources */,
+				7B810B4216712607000D1B3D /* xmlfile.xml in Resources */,
+				7B810B4316712607000D1B3D /* Localizable.strings in Resources */,
+				7B810B4416712607000D1B3D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B810AB41671258D000D1B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B810AC91671258D000D1B3D /* main.m in Sources */,
+				7B810ACD1671258D000D1B3D /* demo3AppDelegate.m in Sources */,
+				7B810AD91671258E000D1B3D /* demo3ViewController.m in Sources */,
+				7B810B2216712607000D1B3D /* ARView.m in Sources */,
+				7B810B2A16712607000D1B3D /* CXMLDocument_CreationExtensions.m in Sources */,
+				7B810B2B16712607000D1B3D /* CXMLNode_CreationExtensions.m in Sources */,
+				7B810B2C16712607000D1B3D /* settingViewController.m in Sources */,
+				7B810B2D16712607000D1B3D /* CXHTMLDocument.m in Sources */,
+				7B810B2E16712607000D1B3D /* CXMLDocument_PrivateExtensions.m in Sources */,
+				7B810B2F16712607000D1B3D /* CXMLDocument.m in Sources */,
+				7B810B3016712607000D1B3D /* CXMLElement_CreationExtensions.m in Sources */,
+				7B810B3116712607000D1B3D /* CXMLElement_ElementTreeExtensions.m in Sources */,
+				7B810B3216712607000D1B3D /* CXMLElement.m in Sources */,
+				7B810B3316712607000D1B3D /* CXMLNamespaceNode.m in Sources */,
+				7B810B3416712607000D1B3D /* CXMLNode_PrivateExtensions.m in Sources */,
+				7B810B3516712607000D1B3D /* CXMLNode_XPathExtensions.m in Sources */,
+				7B810B3616712607000D1B3D /* CXMLNode.m in Sources */,
+				7B810B3716712607000D1B3D /* demo3ARViewController.m in Sources */,
+				7B810B3816712607000D1B3D /* demo3DetailedController.m in Sources */,
+				7B810B3916712607000D1B3D /* demo3MapViewController.m in Sources */,
+				7B810B3D16712607000D1B3D /* MBProgressHUD.m in Sources */,
+				7B810B3E16712607000D1B3D /* Place.m in Sources */,
+				7B810B3F16712607000D1B3D /* PlaceOfInterest.m in Sources */,
+				7B810B4016712607000D1B3D /* CTidy.m in Sources */,
+				7B810B4116712607000D1B3D /* WebService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7B810AC51671258D000D1B3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B810AC61671258D000D1B3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7B810AD41671258E000D1B3D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B810AD51671258E000D1B3D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		7B810B0A16712607000D1B3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B810B0B16712607000D1B3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7B810B0C16712607000D1B3D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B810B0D16712607000D1B3D /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		7B810B0E16712607000D1B3D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B810B0F16712607000D1B3D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		7B810B1E16712607000D1B3D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B810B1F16712607000D1B3D /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		7B810B2016712607000D1B3D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B810B2116712607000D1B3D /* zh-Hans */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B810ADA1671258E000D1B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lxml2";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = /usr/include/libxml2;
+			};
+			name = Debug;
+		};
+		7B810ADB1671258E000D1B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-lxml2";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B810ADD1671258E000D1B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARLocationDemo/ARLocationDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "ARLocationDemo/ARLocationDemo-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/include/libxml2 <Multiple values>";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7B810ADE1671258E000D1B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARLocationDemo/ARLocationDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "ARLocationDemo/ARLocationDemo-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/include/libxml2 <Multiple values>";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B810AB21671258D000D1B3D /* Build configuration list for PBXProject "ARLocationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B810ADA1671258E000D1B3D /* Debug */,
+				7B810ADB1671258E000D1B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B810ADC1671258E000D1B3D /* Build configuration list for PBXNativeTarget "ARLocationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B810ADD1671258E000D1B3D /* Debug */,
+				7B810ADE1671258E000D1B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B810AAF1671258D000D1B3D /* Project object */;
+}

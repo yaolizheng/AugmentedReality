@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Pnf-YJ-jmH">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+    </dependencies>
+    <scenes>
+        <!--Demo3AR View Controller-->
+        <scene sceneID="rLT-E4-2S7">
+            <objects>
+                <viewController id="f94-QE-vzA" customClass="demo3ARViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mp8-Dq-XXf" customClass="ARView">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SGo-9x-Wjp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jsf-TN-vV9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1443" y="-1297"/>
+        </scene>
+        <!--Demo3 Detailed Controller-->
+        <scene sceneID="pgM-ow-eqt">
+            <objects>
+                <tableViewController storyboardIdentifier="111" id="Ab0-Na-9OO" customClass="demo3DetailedController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="123" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Dq5-ep-foA">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="222" id="P0X-ei-0ry">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Ab0-Na-9OO" id="dXw-V8-dgj"/>
+                            <outlet property="delegate" destination="Ab0-Na-9OO" id="pTq-zZ-UnD"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Cl-hI-1do" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-278" y="-1011"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="VXp-AS-Eqj">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="Pnf-YJ-jmH" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JWk-2s-Vh2">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="KbG-wY-aFv" kind="relationship" relationship="rootViewController" id="NdG-Du-uDi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BA1-uE-TXH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2557" y="-669"/>
+        </scene>
+        <!--Demo3 View Controller - 银行位置-->
+        <scene sceneID="CvA-C8-Umr">
+            <objects>
+                <viewController id="KbG-wY-aFv" customClass="demo3ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tql-D1-O7L">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="button1" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nly-GR-a1I">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="AR实现">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="f94-QE-vzA" kind="push" id="by5-5V-ioh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="button2" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKu-Q5-EiU">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="地图">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AKx-lD-IcR" kind="push" id="0Z2-fZ-9YI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nB4-EF-lty">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="设置">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="5uE-tb-Cx5" kind="push" id="AzF-SY-g4v"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bKu-Q5-EiU" firstAttribute="leading" secondItem="Nly-GR-a1I" secondAttribute="leading" type="default" id="8c2-nR-pvm"/>
+                            <constraint firstItem="nB4-EF-lty" firstAttribute="centerX" secondItem="tql-D1-O7L" secondAttribute="centerX" type="default" id="911-35-Xgf"/>
+                            <constraint firstAttribute="bottom" secondItem="nB4-EF-lty" secondAttribute="bottom" constant="82" id="Nql-jf-FAW"/>
+                            <constraint firstItem="bKu-Q5-EiU" firstAttribute="trailing" secondItem="nB4-EF-lty" secondAttribute="trailing" type="default" id="R3i-f7-M6R"/>
+                            <constraint firstItem="bKu-Q5-EiU" firstAttribute="top" secondItem="tql-D1-O7L" secondAttribute="top" constant="184" id="mqE-ys-wNn"/>
+                            <constraint firstItem="nB4-EF-lty" firstAttribute="leading" secondItem="bKu-Q5-EiU" secondAttribute="leading" type="default" id="oMP-Ar-yYi"/>
+                            <constraint firstItem="Nly-GR-a1I" firstAttribute="top" secondItem="tql-D1-O7L" secondAttribute="top" constant="94" id="s09-jY-PLt"/>
+                            <constraint firstItem="bKu-Q5-EiU" firstAttribute="trailing" secondItem="Nly-GR-a1I" secondAttribute="trailing" type="default" id="xhx-AP-raE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="银行位置" id="1Ps-7u-WdJ">
+                        <barButtonItem key="backBarButtonItem" title="返回" id="yA8-0A-Jvb"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nva-HB-Vqu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2085" y="-661"/>
+        </scene>
+        <!--Setting View Controller-->
+        <scene sceneID="n8p-St-Otb">
+            <objects>
+                <viewController id="5uE-tb-Cx5" customClass="settingViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tdd-qV-cf6">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="pai-WQ-kWv">
+                                <segments>
+                                    <segment title="所有银行"/>
+                                    <segment title="花旗银行"/>
+                                </segments>
+                            </segmentedControl>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="银行：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Wy-5J-WYu">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="69" id="4eu-8I-YIp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1Wy-5J-WYu" firstAttribute="leading" secondItem="tdd-qV-cf6" secondAttribute="leading" constant="40" id="3RY-RH-tnB"/>
+                            <constraint firstItem="pai-WQ-kWv" firstAttribute="leading" secondItem="tdd-qV-cf6" secondAttribute="leading" constant="125" id="HgF-lX-opl"/>
+                            <constraint firstItem="pai-WQ-kWv" firstAttribute="baseline" secondItem="1Wy-5J-WYu" secondAttribute="baseline" type="default" id="aCy-fs-ERg"/>
+                            <constraint firstItem="pai-WQ-kWv" firstAttribute="centerY" secondItem="1Wy-5J-WYu" secondAttribute="centerY" type="default" id="cgK-PZ-ND0"/>
+                            <constraint firstItem="pai-WQ-kWv" firstAttribute="top" secondItem="tdd-qV-cf6" secondAttribute="top" constant="140" id="fr2-fM-pHl"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="yik-MT-sz9"/>
+                    <connections>
+                        <outlet property="seg" destination="pai-WQ-kWv" id="7bW-cL-OuA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SkW-42-MlX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1998" y="27"/>
+        </scene>
+        <!--Demo3 Map View Controller-->
+        <scene sceneID="Kd6-sN-wPO">
+            <objects>
+                <viewController id="AKx-lD-IcR" customClass="demo3MapViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L99-Kd-jJ2">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="tDN-nD-ce6">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="325" id="Ha0-Qs-1ck"/>
+                                </constraints>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tDN-nD-ce6" firstAttribute="trailing" secondItem="L99-Kd-jJ2" secondAttribute="trailing" type="default" id="A21-Ze-rIu"/>
+                            <constraint firstItem="tDN-nD-ce6" firstAttribute="top" secondItem="L99-Kd-jJ2" secondAttribute="top" type="default" id="iZG-Hc-XPs"/>
+                            <constraint firstItem="tDN-nD-ce6" firstAttribute="bottom" secondItem="L99-Kd-jJ2" secondAttribute="bottom" type="default" id="nRf-cp-0mh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="KT7-0d-82b"/>
+                    <connections>
+                        <outlet property="mapView" destination="tDN-nD-ce6" id="xsN-lt-oqC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4vI-zU-fyd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1571" y="-476"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="ARView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ARView.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="demo3ARViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/demo3ARViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="buttonPress:"/>
+            </relationships>
+        </class>
+        <class className="demo3DetailedController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/demo3DetailedController.h"/>
+        </class>
+        <class className="demo3MapViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/demo3MapViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
+            </relationships>
+        </class>
+        <class className="demo3ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/demo3ViewController.h"/>
+        </class>
+        <class className="settingViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/settingViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="seg" candidateClass="UISegmentedControl"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

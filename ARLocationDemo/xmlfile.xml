@@ -1,0 +1,156 @@
+<searchLocationsResponse nextPage="1" mobletVersion="1.0" muid="${muid}" msid="${msid}" xmlns="http://www.mfoundry.com/GBML/Schema">
+<location info="Not affiliated with Citibank" unit="mi" distance="0.15" lon="-122.408653" lat="37.787174" phone="(415) 781-7880" state="CA" city="San Francisco" address="323 Geary St" name="Union Square Association Bid" id="21342079"/>
+<location info="Limited Hours, ATM, Surcharge-Free " unit="mi" distance="0.18" lon="-122.40367" lat="37.787331" phone="" state="CA" city="San Francisco" address="711 Market St" name="Citibank ATM" id="90736372">
+    <detail value="Greetings from bank" name="bank.messsage" type="property">
+        <display displayType="text">
+            <label>Greetings</label>
+            <displayValue>Our bank says hello</displayValue>
+        </display>
+    </detail>
+    <detail value="https://www.google.com/" name="link" type="property">
+        <display displayType="imageurl">
+            <label>link to google</label>
+            <displayValue>https://www.google.com/images/logo_sm.gif</displayValue>
+        </display>
+    </detail>
+    <detail value="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-snc4/41604_165262773498184_5412880_n.jpg" name="image" type="property">
+        <display displayType="image">
+            <label>an image</label>
+        </display>
+    </detail>
+</location>
+<location info="Surcharge-Free, Deposit Taking, Branch Office, Restricted Access" unit="mi" distance="0.26" lon="-122.403473" lat="37.788785" phone="(800) 627-3999" state="CA" city="San Francisco" address="99 Post St" name="Citibank" id="101105019">
+    <detail value="Greetings from bank" name="bank.messsage" type="property">
+        <display displayType="text">
+            <label>Greetings</label>
+            <displayValue>Our bank says hello</displayValue>
+        </display>
+    </detail>
+    <detail value="https://www.google.com/" name="link" type="property">
+        <display displayType="imageurl">
+            <label>link to google</label>
+            <displayValue>https://www.google.com/images/logo_sm.gif</displayValue>
+        </display>
+    </detail>
+    <detail value="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-snc4/41604_165262773498184_5412880_n.jpg" name="image" type="property">
+        <display displayType="image">
+            <label>an image</label>
+        </display>
+    </detail>
+</location>
+<location info="Limited Hours, ATM, Surcharge-Free " unit="mi" distance="0.29" lon="-122.404351" lat="37.789668" phone="" state="CA" city="San Francisco" address="217 Sutter St" name="Citibank ATM" id="90741968">
+    <detail value="Greetings from bank" name="bank.messsage" type="property">
+        <display displayType="text">
+            <label>Greetings</label>
+            <displayValue>Our bank says hello</displayValue>
+        </display>
+    </detail>
+    <detail value="https://www.google.com/" name="link" type="property">
+        <display displayType="imageurl">
+            <label>link to google</label>
+            <displayValue>https://www.google.com/images/logo_sm.gif</displayValue>
+        </display>
+    </detail>
+    <detail value="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-snc4/41604_165262773498184_5412880_n.jpg" name="image" type="property">
+        <display displayType="image">
+            <label>an image</label>
+        </display>
+    </detail>
+</location>
+<location info="Surcharge-Free, Deposit Taking, Branch Office, Restricted Access" unit="mi" distance="0.34" lon="-122.401756" lat="37.789136" phone="(800) 627-3999" state="CA" city="San Francisco" address="590 Market St" name="Citibank" id="24474613">
+    <detail value="Greetings from bank" name="bank.messsage" type="property">
+        <display displayType="text">
+            <label>Greetings</label>
+            <displayValue>Our bank says hello</displayValue>
+        </display>
+    </detail>
+    <detail value="https://www.google.com/" name="link" type="property">
+        <display displayType="imageurl">
+            <label>link to google</label>
+            <displayValue>https://www.google.com/images/logo_sm.gif</displayValue>
+        </display>
+    </detail>
+    <detail value="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-snc4/41604_165262773498184_5412880_n.jpg" name="image" type="property">
+        <display displayType="image">
+            <label>an image</label>
+        </display>
+    </detail>
+</location>
+<location info="ATM, Surcharge-Free " unit="mi" distance="0.42" lon="-122.400757" lat="37.790032" phone="" state="CA" city="San Francisco" address="1 Sutter St" name="Citibank - ATM" id="45227729">
+    <detail value="Greetings from bank" name="bank.messsage" type="property">
+        <display displayType="text">
+            <label>Greetings</label>
+            <displayValue>Our bank says hello</displayValue>
+        </display>
+    </detail>
+    <detail value="https://www.google.com/" name="link" type="property">
+        <display displayType="imageurl">
+            <label>link to google</label>
+            <displayValue>https://www.google.com/images/logo_sm.gif</displayValue>
+        </display>
+    </detail>
+    <detail value="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-snc4/41604_165262773498184_5412880_n.jpg" name="image" type="property">
+        <display displayType="image">
+            <label>an image</label>
+        </display>
+    </detail>
+</location>
+<location info="Surcharge-Free, Deposit Taking, Branch Office, Restricted Access" unit="mi" distance="0.44" lon="-122.40094" lat="37.790483" phone="(415) 627-6000" state="CA" city="San Francisco" address="1 Sansome St" name="Citicorp-Citibank" id="21327852">
+    <detail value="Greetings from bank" name="bank.messsage" type="property">
+        <display displayType="text">
+            <label>Greetings</label>
+            <displayValue>Our bank says hello</displayValue>
+        </display>
+    </detail>
+    <detail value="https://www.google.com/" name="link" type="property">
+        <display displayType="imageurl">
+            <label>link to google</label>
+            <displayValue>https://www.google.com/images/logo_sm.gif</displayValue>
+        </display>
+    </detail>
+    <detail value="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-snc4/41604_165262773498184_5412880_n.jpg" name="image" type="property">
+        <display displayType="image">
+            <label>an image</label>
+        </display>
+    </detail>
+</location>
+<location info="ATM, Surcharge-Free " unit="mi" distance="0.48" lon="-122.400774" lat="37.791228" phone="" state="CA" city="San Francisco" address="200 Bush St" name="Citibank - ATM" id="24473997">
+    <detail value="Greetings from bank" name="bank.messsage" type="property">
+        <display displayType="text">
+            <label>Greetings</label>
+            <displayValue>Our bank says hello</displayValue>
+        </display>
+    </detail>
+    <detail value="https://www.google.com/" name="link" type="property">
+        <display displayType="imageurl">
+            <label>link to google</label>
+            <displayValue>https://www.google.com/images/logo_sm.gif</displayValue>
+        </display>
+    </detail>
+    <detail value="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-snc4/41604_165262773498184_5412880_n.jpg" name="image" type="property">
+        <display displayType="image">
+            <label>an image</label>
+        </display>
+    </detail>
+</location>
+<location info="Not affiliated with Citibank" unit="mi" distance="0.50" lon="-122.400959" lat="37.791675" phone="(415) 362-4422" state="CA" city="San Francisco" address="155 Sansome St, #400" name="Ggba" id="88230495"/>
+<location info="Surcharge-Free, Deposit Taking, Branch Office, Restricted Access" unit="mi" distance="0.57" lon="-122.403084" lat="37.793573" phone="(800) 627-3999" state="CA" city="San Francisco" address="451 Montgomery St" name="Citibank" id="21356925">
+    <detail value="Greetings from bank" name="bank.messsage" type="property">
+        <display displayType="text">
+            <label>Greetings</label>
+            <displayValue>Our bank says hello</displayValue>
+        </display>
+    </detail>
+    <detail value="https://www.google.com/" name="link" type="property">
+        <display displayType="imageurl">
+            <label>link to google</label>
+            <displayValue>https://www.google.com/images/logo_sm.gif</displayValue>
+        </display>
+    </detail>
+    <detail value="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-snc4/41604_165262773498184_5412880_n.jpg" name="image" type="property">
+        <display displayType="image">
+            <label>an image</label>
+        </display>
+    </detail>
+</location>
+</searchLocationsResponse>

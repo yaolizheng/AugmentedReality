@@ -1,0 +1,27 @@
+/*
+ Localizable.strings
+ NaviSto
+ 
+ Created by PENG HUANG on 11/16/12.
+ 
+ */
+//demo3View
+"Bank Locations" = "银行位置";
+"Augmented Reality" = "现实增强";
+"Map" = "地图";
+
+//Mapview and ARView NavigationItems
+"ALL" = "全部";
+"ATM" = "提款机";
+"Bank" = "银行";
+
+//detailView
+"Detail" = "详细信息";
+"Bank Name" = "银行名字";
+"Phone" = "电话号码";
+"Address" = "地址";
+"City" ="城市";
+"State"="州";
+
+//SettingView
+"Setting" = "设置";
